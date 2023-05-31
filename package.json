@@ -13,7 +13,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-auto": "^2.1.0",
 		"@sveltejs/kit": "^1.5.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
@@ -31,6 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@stitches/core": "^1.2.8"
+		"@stitches/core": "^1.2.8",
+		"svelte-adapter-github": "^1.0.0-next.0"
 	}
 }
